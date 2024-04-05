@@ -36,7 +36,6 @@ import pic_35 from "./women/pic_35.jpg";
 import pic_36 from "./women/pic_36.jpg";
 import pic_37 from "./women/pic_37.jpg";
 import pic_38 from "./women/pic_38.jpg";
-import pic_39 from "./women/pic_39.jpg";
 
 let all_product = [
   {
@@ -353,3 +352,5 @@ let all_product = [
     old_price: 1999,
   },
 ];
+
+export default all_product;
