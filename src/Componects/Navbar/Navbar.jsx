@@ -12,14 +12,54 @@ const Navbar = () => {
         <p>ECOM</p>
       </div>
       <ul className="nav-links">
-        <li onClick={() => {setmenu("shop");}}><Link style={{textDecoration:'nones'}} to= '/'>Shop</Link>{menu === "shop" ? <hr /> : <></>}</li>
-        <li onClick={() => {setmenu("mens");}}><Link style={{textDecoration:'nones'}} to= '/mens'>men</Link> {menu === "mens" ? <hr /> : <></>}</li>
-        <li onClick={() => {setmenu("womens");}}><Link style={{textDecoration:'nones'}} to= '/womens'>women</Link>{menu === "womens" ? <hr /> : <></>}</li>
-        <li onClick={() => {setmenu("kids");}}><Link style={{textDecoration:'nones'}} to= '/kids'>kids</Link> {menu === "kids" ? <hr /> : <></>}</li>
+        <li
+          onClick={() => {
+            setmenu("shop");
+          }}
+        >
+          <Link style={{ textDecoration: "nones" }} to="/">
+            Shop
+          </Link>
+          {menu === "shop" ? <hr /> : <></>}
+        </li>
+        <li
+          onClick={() => {
+            setmenu("mens");
+          }}
+        >
+          <Link style={{ textDecoration: "nones" }} to="/mens">
+            men
+          </Link>{" "}
+          {menu === "mens" ? <hr /> : <></>}
+        </li>
+        <li
+          onClick={() => {
+            setmenu("womens");
+          }}
+        >
+          <Link style={{ textDecoration: "nones" }} to="/womens">
+            women
+          </Link>
+          {menu === "womens" ? <hr /> : <></>}
+        </li>
+        <li
+          onClick={() => {
+            setmenu("kids");
+          }}
+        >
+          <Link style={{ textDecoration: "nones" }} to="/kids">
+            kids
+          </Link>{" "}
+          {menu === "kids" ? <hr /> : <></>}
+        </li>
       </ul>
       <div className="navbar-cart">
-      <Link to= '/login'><button>Login</button></Link>
-      <Link to= '/cart'><img src={cart_icon} /></Link>
+        <Link to="/login">
+          <button>Login</button>
+        </Link>
+        <Link to="/cart">
+          <img src={cart_icon} />
+        </Link>
         <div className="navbar-count">0</div>
       </div>
     </nav>
