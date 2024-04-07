@@ -17,7 +17,7 @@ const Navbar = () => {
             setmenu("shop");
           }}
         >
-          <Link style={{ textDecoration: "nones" }} to="/">
+          <Link style={{ textDecoration: "none " }} to="/">
             Shop
           </Link>
           {menu === "shop" ? <hr /> : <></>}
@@ -27,7 +27,7 @@ const Navbar = () => {
             setmenu("mens");
           }}
         >
-          <Link style={{ textDecoration: "nones" }} to="/mens">
+          <Link style={{ textDecoration: "none" }} to="/mens">
             men
           </Link>{" "}
           {menu === "mens" ? <hr /> : <></>}
@@ -37,7 +37,7 @@ const Navbar = () => {
             setmenu("womens");
           }}
         >
-          <Link style={{ textDecoration: "nones" }} to="/womens">
+          <Link style={{ textDecoration: "none" }} to="/womens">
             women
           </Link>
           {menu === "womens" ? <hr /> : <></>}
@@ -47,7 +47,7 @@ const Navbar = () => {
             setmenu("kids");
           }}
         >
-          <Link style={{ textDecoration: "nones" }} to="/kids">
+          <Link style={{ textDecoration: "none" }} to="/kids">
             kids
           </Link>{" "}
           {menu === "kids" ? <hr /> : <></>}
