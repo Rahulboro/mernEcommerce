@@ -6,8 +6,9 @@ import Item from "../Item/Item";
 const Popular = () => {
   return (
     <div className="Popular">
-      <h1>Popular In women</h1>
-      <div className="Products-item">
+      <h1>Popular In Men</h1>
+      <hr />
+      <div className="products-item">
         {product_Data.map((item, i) => {
           return (
             <Item

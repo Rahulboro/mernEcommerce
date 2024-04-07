@@ -2,7 +2,6 @@ import pic_1 from "./men/pic_1.jpg";
 import pic_2 from "./men/pic_2.jpg";
 import pic_3 from "./men/pic_3.jpg";
 import pic_4 from "./men/pic_4.jpg";
-import pic_5 from "./men/pic_5.jpg";
 
 let Product_Data = [
   {
@@ -36,14 +35,6 @@ let Product_Data = [
     image: pic_4,
     new_price: 999,
     old_price: 1999,
-  },
-  {
-    id: 5,
-    name: "men mountain rough grey greenshoulder t shirt  ",
-    category: "men",
-    image: pic_5,
-    new_price: 699,
-    old_price: 1699,
   },
 ];
 
