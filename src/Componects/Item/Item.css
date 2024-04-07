@@ -1,22 +1,23 @@
 .item{
-    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
 }   
 .item p{
     margin: 5px;
 }
 .item-prices {
     display: flex;
+    gap: 20px;
+
 }
 .item-price-new{
-    color:  #F6995C;
     font-size: 20px;
     font-weight: 600;
 }
 .item-price-old{
-    color:  #51829B;
     font-size: 20px;
     font-weight: 600;
-    text-decoration: line-through;
 }
 .item:hover{
     transform: scale(1.05);

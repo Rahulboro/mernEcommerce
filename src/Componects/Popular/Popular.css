@@ -1,11 +1,12 @@
 .popular{
+    background: #51829B;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
+
 }
 .popular h1{
-    color: blueviolet;
+    color: #9BB0C1;
     font-size: 50px;
     font-weight: 600;
 }
@@ -13,10 +14,11 @@
     width: 200px;
     height: 6px;
     border-radius: 10px;
+    border-style: none;
     background: #000;
 }
-.products-item{
+.popular-item{
     margin-top: 30px;
     display: flex;
-    align-items: center;
+    gap: 20px;
 }

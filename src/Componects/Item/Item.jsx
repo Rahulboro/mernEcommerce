@@ -4,11 +4,11 @@ import "./Item.css";
 const Item = (props) => {
   return (
     <div className="item">
-      <img src={props.image} style={{ width: "260px" }} alt="" />
+      <img src={props.image} style={{ width: "330px" }} alt="" />
       <p>{props.name}</p>
       <div className="item-prices">
-        <div className="item-price-new">{props.price_new}</div>
-        <div className="item-price-old">{props.price_old}</div>
+        <div className="item-price-new">${props.price_new}</div>
+        <div className="item-price-old">${props.price_old}</div>
       </div>
     </div>
   );

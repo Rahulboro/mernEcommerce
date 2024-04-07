@@ -5,10 +5,10 @@ import Item from "../Item/Item";
 
 const Popular = () => {
   return (
-    <div className="Popular">
+    <div className="popular">
       <h1>Popular In Men</h1>
       <hr />
-      <div className="products-item">
+      <div className="popular-item">
         {product_Data.map((item, i) => {
           return (
             <Item
@@ -17,7 +17,7 @@ const Popular = () => {
               name={item.name}
               image={item.image}
               price_new={item.new_price}
-              old_price={item.old_price}
+              price_old={item.old_price}
             />
           );
         })}
