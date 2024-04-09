@@ -1,5 +1,6 @@
 import React from "react";
 import "./Offers.css";
+import "../assets/women/pic_39.jpg";
 
 const Offers = () => {
   return (
@@ -11,7 +12,7 @@ const Offers = () => {
         <button>SHOP NOW</button>
       </div>
       <div className="offers-right">
-        <img src="" alt="" />
+        <img style={{ width: "500px" }} src="pic_39.jpg" alt="" />
       </div>
     </div>
   );
