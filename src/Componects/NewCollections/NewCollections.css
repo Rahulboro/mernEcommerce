@@ -1,19 +1,25 @@
 .New-collections{
-    background: #51829B;               
-
+    background: #51829B;       
+    display: flex;        
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-/* .New-collections h1{
+.New-collections h1{
     color: #9BB0C1;
     font-size: 50px;
     font-weight: 600;
 }
 .New-collections hr{
+    background: #000;
+    display: flex;
     width: 200px;
     height: 6px;
     border-radius: 10px;
     border-style: none;
-} */
-/* .collection {
+} 
+.collections {
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
-} */
+}
