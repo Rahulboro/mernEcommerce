@@ -10,7 +10,7 @@ import pic_9 from "./men/pic_9.jpg";
 import pic_10 from "./men/pic_10.jpg";
 import pic_11 from "./men/pic_11.jpg";
 import pic_12 from "./men/pic_12.jpg";
-import pic_13 from "./kids/pic_13.jpg";
+import pic_13 from "./kid/pic_13.jpg";
 import pic_14 from "./kid/pic_14.jpg";
 import pic_15 from "./kid/pic_15.jpg";
 import pic_16 from "./kid/pic_16.jpg";
@@ -36,6 +36,7 @@ import pic_35 from "./women/pic_35.jpg";
 import pic_36 from "./women/pic_36.jpg";
 import pic_37 from "./women/pic_37.jpg";
 import pic_38 from "./women/pic_38.jpg";
+import pic_39 from "./women/pic_39.jpg";
 
 let all_product = [
   {
