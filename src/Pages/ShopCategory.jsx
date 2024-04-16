@@ -7,6 +7,7 @@ const ShopCategory = (props) => {
   return (
     <div className="shop-category">
       <img src={props.banner} alt="" />
+      <div className="ShopCategory-indexShort"></div>
     </div>
   );
 };
