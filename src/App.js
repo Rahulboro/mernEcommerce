@@ -7,9 +7,9 @@ import Product from "./Pages/Product";
 import LoginSignUp from "./Pages/LoginSignUp";
 import Cart from "./Pages/Cart";
 import Footer from "./Componects/Footer/Footer";
-import men_banner from "./Componects/assets/men/newmenbanner.png";
-import womens_banner from "./Componects/assets/women/newwomenbanner.png";
-import kids_banner from "./Componects/assets/kid/newkidsbanner.png";
+import men_banner from "./Componects/assets/banner/newmenbanner.png";
+import womens_banner from "./Componects/assets/banner/newwomenbanner.png";
+import kids_banner from "./Componects/assets/banner/newkidsbanner.png";
 
 function App() {
   return (

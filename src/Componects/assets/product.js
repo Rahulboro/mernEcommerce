@@ -130,7 +130,7 @@ let all_product = [
   {
     id: 12,
     name: "men pink floral print shirt ",
-    category: "kid",
+    category: "men",
     image: pic_12,
     new_price: 1499,
     old_price: 3299,
