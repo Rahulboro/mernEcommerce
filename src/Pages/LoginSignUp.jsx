@@ -1,4 +1,5 @@
 import React from "react";
+import loginSignUp from "./CSS/LoginSignUp.css";
 
 const LoginSignUp = () => {
   return (

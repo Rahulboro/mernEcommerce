@@ -1,0 +1,28 @@
+.loginSignup{
+    width: 100vw;
+    height: 80vh;
+    padding-top: 90px;
+    background: #EADFB4;
+}
+.loginSignup-container{
+    width: 500px;
+    height: 600px;
+    background: white;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+}
+.loginSignup-container h1{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginSignup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.loginSignup-form input{
+    height: 40px;
+}
