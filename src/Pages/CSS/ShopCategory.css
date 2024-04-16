@@ -3,3 +3,19 @@
     width: 1400px;
     height: 600px;
 }
+.shopcategory-indexShort{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 170px;
+    align-items: center;
+}
+.shopcategory-indexShort p span{
+    font-weight: 600;
+}
+.shopcategory-sort{
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 1em;
+} 
+.shopcategory-products{
+}
