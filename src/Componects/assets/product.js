@@ -65,7 +65,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "men neon green t shirt flag football flag",
+    name: "green t shirt flag football flag",
     category: "men",
     image: pic_4,
     new_price: 999,
@@ -73,7 +73,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "men mountain rough grey greenshoulder t shirt  ",
+    name: "grey greenshoulder t shirt  ",
     category: "men",
     image: pic_5,
     new_price: 699,
@@ -81,7 +81,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "men grey hiphop t shirt ",
+    name: "grey hiphop t shirt ",
     category: "men",
     image: pic_6,
     new_price: 599,
@@ -89,7 +89,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "men black t shirt ",
+    name: "black t shirt ",
     category: "men",
     image: pic_7,
     new_price: 399,
@@ -97,7 +97,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "men hlaf t shirt ",
+    name: "hlaf t shirt ",
     category: "men",
     image: pic_8,
     new_price: 499,
@@ -105,7 +105,7 @@ let all_product = [
   },
   {
     id: 9,
-    name: "men green flowerpatter shirt ",
+    name: "green flowerpatter shirt ",
     category: "men",
     image: pic_9,
     new_price: 799,
@@ -113,7 +113,7 @@ let all_product = [
   },
   {
     id: 10,
-    name: "men plain-red t shirt ",
+    name: "plain-red t shirt ",
     category: "men",
     image: pic_10,
     new_price: 699,
@@ -121,7 +121,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "men white plain long shirt ",
+    name: "white plain long shirt ",
     category: "men",
     image: pic_11,
     new_price: 1499,
@@ -129,7 +129,7 @@ let all_product = [
   },
   {
     id: 12,
-    name: "men pink floral print shirt ",
+    name: "pink floral print shirt ",
     category: "men",
     image: pic_12,
     new_price: 1499,
@@ -137,7 +137,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "kid girl barbie doll shirt ",
+    name: "barbie doll shirt ",
     category: "kid",
     image: pic_13,
     new_price: 2499,
@@ -146,7 +146,7 @@ let all_product = [
 
   {
     id: 14,
-    name: "kid red coat half",
+    name: "red coat half",
     category: "kid",
     image: pic_14,
     new_price: 999,
@@ -154,7 +154,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "kid toy t_shirt ",
+    name: "toy t_shirt ",
     category: "kid",
     image: pic_15,
     new_price: 799,
@@ -162,7 +162,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "kid combo t-shirts and hoodie",
+    name: "combo t-shirts and hoodie",
     category: "kid",
     image: pic_16,
     new_price: 1499,
@@ -170,7 +170,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "kid girl cap flower ",
+    name: "girl cap flower ",
     category: "kid",
     image: pic_17,
     new_price: 399,
@@ -178,7 +178,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "kid rajsthani cap ",
+    name: "rajsthani cap ",
     category: "kid",
     image: pic_18,
     new_price: 299,
@@ -194,7 +194,7 @@ let all_product = [
   },
   {
     id: 20,
-    name: "kid blue t-shirt with red black jeans ",
+    name: "blue t-shirt with red black jeans ",
     category: "kid",
     image: pic_20,
     new_price: 2299,
@@ -202,7 +202,7 @@ let all_product = [
   },
   {
     id: 21,
-    name: "kid blue t-shirt only ",
+    name: "blue t-shirt only ",
     category: "kid",
     image: pic_21,
     new_price: 699,
@@ -210,7 +210,7 @@ let all_product = [
   },
   {
     id: 22,
-    name: "kid black grey jacket ",
+    name: "black grey jacket ",
     category: "kid",
     image: pic_22,
     new_price: 1799,
@@ -218,7 +218,7 @@ let all_product = [
   },
   {
     id: 23,
-    name: "kid girl hip hop brown dress ",
+    name: "girl hip hop brown dress ",
     category: "kid",
     image: pic_23,
     new_price: 1299,
@@ -226,7 +226,7 @@ let all_product = [
   },
   {
     id: 24,
-    name: "kid red dress cap ",
+    name: "red dress cap ",
     category: "kid",
     image: pic_24,
     new_price: 2299,
@@ -234,7 +234,7 @@ let all_product = [
   },
   {
     id: 25,
-    name: "kid white shirt with black frock ",
+    name: "white shirt with black frock ",
     category: "kid",
     image: pic_25,
     new_price: 2459,
@@ -242,7 +242,7 @@ let all_product = [
   },
   {
     id: 26,
-    name: "kid black jacket  with glasses ",
+    name: "black jacket  with glasses ",
     category: "kid",
     image: pic_26,
     new_price: 1459,
@@ -250,7 +250,7 @@ let all_product = [
   },
   {
     id: 27,
-    name: "kid pink frock ",
+    name: "pink frock ",
     category: "kid",
     image: pic_27,
     new_price: 459,
@@ -258,7 +258,7 @@ let all_product = [
   },
   {
     id: 28,
-    name: "women black bra  ",
+    name: "black bra  ",
     category: "women",
     image: pic_28,
     new_price: 799,
@@ -266,7 +266,7 @@ let all_product = [
   },
   {
     id: 29,
-    name: "women blue tights top and pents ",
+    name: "blue tights top and pents ",
     category: "women",
     image: pic_29,
     new_price: 1499,
@@ -274,7 +274,7 @@ let all_product = [
   },
   {
     id: 30,
-    name: "women color pink tights ",
+    name: "color pink tights ",
     category: "women",
     image: pic_30,
     new_price: 679,
@@ -282,7 +282,7 @@ let all_product = [
   },
   {
     id: 31,
-    name: "women color black sports top",
+    name: "color black sports top",
     category: "women",
     image: pic_31,
     new_price: 549,
@@ -290,7 +290,7 @@ let all_product = [
   },
   {
     id: 32,
-    name: "women color black casual top",
+    name: "color black casual top",
     category: "women",
     image: pic_32,
     new_price: 1099,
@@ -298,7 +298,7 @@ let all_product = [
   },
   {
     id: 33,
-    name: "women red top with blue half jeans",
+    name: "red top with blue half jeans",
     category: "women",
     image: pic_33,
     new_price: 1749,
@@ -306,7 +306,7 @@ let all_product = [
   },
   {
     id: 34,
-    name: "women black color half waist coat",
+    name: "black color half waist coat",
     category: "women",
     image: pic_34,
     new_price: 899,
@@ -314,7 +314,7 @@ let all_product = [
   },
   {
     id: 35,
-    name: "women pink color dotted patterned shirt ",
+    name: "pink color dotted patterned shirt ",
     category: "women",
     image: pic_35,
     new_price: 1389,
@@ -322,7 +322,7 @@ let all_product = [
   },
   {
     id: 36,
-    name: "women white and black strip check shirt",
+    name: "white and black strip check shirt",
     category: "women",
     image: pic_36,
     new_price: 1399,
@@ -330,7 +330,7 @@ let all_product = [
   },
   {
     id: 37,
-    name: "women blue and white stripe check shirt",
+    name: "blue and white stripe check shirt",
     category: "women",
     image: pic_37,
     new_price: 1399,
@@ -338,7 +338,7 @@ let all_product = [
   },
   {
     id: 38,
-    name: "women white color shirt",
+    name: "white color shirt",
     category: "women",
     image: pic_38,
     new_price: 1499,
@@ -346,7 +346,7 @@ let all_product = [
   },
   {
     id: 39,
-    name: "women white color shirt",
+    name: "white color shirt",
     category: "women",
     image: pic_39,
     new_price: 1299,
