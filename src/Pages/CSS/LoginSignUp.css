@@ -1,28 +1,45 @@
 .loginSignup{
-    width: 100vw;
-    height: 80vh;
-    padding-top: 90px;
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
     background: #EADFB4;
 }
 .loginSignup-container{
-    width: 500px;
-    height: 600px;
-    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 590px;
+    height: 80%;
+    border-radius: 1em;
+    background:white;
     box-sizing: border-box;
     margin: auto;
     position: relative;
 }
 .loginSignup-container h1{
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .loginSignup-form{
+    width: 80%;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    color: white;
+    gap: 10px;
 }
 .loginSignup-form input{
-    height: 40px;
+    width: 97%;
+    height: 46px;
+    text-align: center;
+}
+.login-btn{
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
+}
+.loginSignup-agree{
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
 }
