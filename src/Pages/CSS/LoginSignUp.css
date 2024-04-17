@@ -38,8 +38,22 @@
     height: 50px;
     cursor: pointer;
 }
+.login-btn:hover{
+    background: #F6995C;
+}
 .loginSignup-agree{
     margin-top: 20px;
     font-size: 18px;
     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.loginSignup-login{
+    margin-top:  10px;
+    color:#F6995C;
+    font-weight: 500;
+}
+.loginSignup-login span {
+    color: #0000ff;
+    cursor: pointer;
 }
