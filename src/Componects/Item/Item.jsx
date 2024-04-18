@@ -4,7 +4,15 @@ import "./Item.css";
 const Item = (props) => {
   return (
     <div className="item">
-      <img src={props.image} style={{ width: "330px" }} alt="" />
+      <a href={`/product/${props.id}`}>
+        <img
+          to={`/product/${props.id}`}
+          src={props.image}
+          style={{ width: "330px" }}
+          alt=""
+        />
+      </a>
+
       <p>{props.name}</p>
       <div className="item-prices">
         <div className="item-price-new">${props.price_new}</div>
