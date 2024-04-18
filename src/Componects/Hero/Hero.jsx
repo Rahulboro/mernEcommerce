@@ -24,7 +24,11 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img style={{ width: "100%" }} src={hero_image} alt="hero image"></img>
+        <img
+          style={{ width: "100%", height: "100%" }}
+          src={hero_image}
+          alt="hero image"
+        ></img>
       </div>
     </div>
   );
