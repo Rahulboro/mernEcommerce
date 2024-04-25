@@ -17,3 +17,22 @@
 .productdisplay-main-img{
     width: 550px;
 }
+
+.productdisplay-right{
+    margin: 0px  60px;
+    display: flex;
+    flex-direction: column;
+}
+.productdisplay-right h1{
+    font-size: 34px;
+    color:#333;
+    font-weight: 700;
+}
+.productdisplay-right-stars{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 5px;
+    color: #333;
+    font-size: 18px;
+}
