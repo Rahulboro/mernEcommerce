@@ -6,9 +6,9 @@ const DescriptionBox = () => {
     <div className="description-box">
       <div className="description-navigator">
         <div className="description-box-nav-box">Description</div>
-        <div className="description-box-nav-box">Reviews (154)</div>
+        <div className="description-box-nav-box-fade">Reviews (154)</div>
       </div>
-      <div className="descriptionbox-descriptopn">
+      <div className="descriptionbox-description">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. In cupiditate
           quasi unde quae facilis dolore est magni aspernatur tenetur maxime,
