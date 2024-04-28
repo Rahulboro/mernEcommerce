@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./productdisplay.css";
 import star_icon from "../assets/icons/star-solid-24.png";
 import star_dull from "../assets/icons/star-regular-24.png";
+import { ShopContext } from "../../Context/ShopContext";
 
 const ProductDisplay = (props) => {
   const { product } = props;
+
   return (
     <div className="product-display">
       <div className="productdisplay-left">
