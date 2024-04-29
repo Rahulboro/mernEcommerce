@@ -25,7 +25,7 @@ const CartItems = () => {
         <img
           src={removeIcon}
           onClick={() => {
-            removeFromCart;
+            removeFromCart();
           }}
         ></img>
       </div>
