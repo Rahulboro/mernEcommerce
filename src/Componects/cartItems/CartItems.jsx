@@ -4,7 +4,7 @@ import { ShopContext } from "../../Context/ShopContext";
 import removeIcon from "../assets/icons/minus-regular-24.png";
 
 const CartItems = () => {
-  const { all_product, CartItems, removeFromCart } = useContext(ShopContext);
+  const { all_product, cartItems, removeFromCart } = useContext(ShopContext);
   return (
     <div className="cartItems">
       <div className="cartItem-format-main">
@@ -16,19 +16,25 @@ const CartItems = () => {
         <p>Remove</p>
       </div>
       <hr />
-      <div className="cartItems-format">
-        <img src="" alt="" className="carticon-product-icon" />
-        <p></p>
-        <p></p>
-        <button className="cartitems-quantity"></button>
-        <p></p>
-        <img
-          src={removeIcon}
-          onClick={() => {
-            removeFromCart();
-          }}
-        ></img>
-      </div>
+      {all_product.map((e) => {
+        if (cartItems[e.id] > 0) {
+          return;
+          <div className="cartItems-format">
+            <img src={e.images} alt="" className="carticon-product-icon" />
+            <p>{e.name}</p>
+            <p>${e.new_price}</p>
+            <button className="cartitems-quantity">{cartItems[e.id]}</button>
+            <p>{e.new_price * cartItems[e.id]}</p>
+            <img
+              src={removeIcon}
+              onClick={() => {
+                removeFromCart(e.id);
+              }}
+            ></img>
+          </div>;
+        }
+      })}
+
       <hr />
     </div>
   );
