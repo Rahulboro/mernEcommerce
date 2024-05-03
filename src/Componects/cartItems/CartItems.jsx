@@ -18,10 +18,9 @@ const CartItems = () => {
       <hr />
       {all_product.map((e) => {
         if (cartItems[e.id] > 0) {
-          return;
-          <div>
-            <div className="cartItems-format">
-              <img src={e.images} alt="" className="carticon-product-icon" />
+          return (
+            <div className="cartItems-format" key={e.id}>
+              <img src={e.image} alt="" className="carticon-product-icon" />
               <p>{e.name}</p>
               <p>${e.new_price}</p>
               <button className="cartitems-quantity">{cartItems[e.id]}</button>
@@ -31,9 +30,9 @@ const CartItems = () => {
                 onClick={() => {
                   removeFromCart(e.id);
                 }}
-              ></img>
+              />
             </div>
-          </div>;
+          );
         }
       })}
 
