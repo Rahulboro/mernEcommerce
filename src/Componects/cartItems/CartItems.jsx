@@ -20,7 +20,12 @@ const CartItems = () => {
         if (cartItems[e.id] > 0) {
           return (
             <div className="cartItems-format" key={e.id}>
-              <img src={e.image} alt="" className="carticon-product-icon" />
+              <img
+                src={e.image}
+                style={{ width: "350px" }}
+                alt=""
+                className="carticon-product-icon"
+              />
               <p>{e.name}</p>
               <p>${e.new_price}</p>
               <button className="cartitems-quantity">{cartItems[e.id]}</button>
