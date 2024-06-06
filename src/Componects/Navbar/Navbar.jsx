@@ -7,10 +7,13 @@ const Navbar = () => {
   const [menu, setmenu] = useState("shop");
   return (
     <nav className="navbar">
-      <div className="nav-logo">
+      <Link style={{ textDecoration: "none " }} to="/">
         <img style={{ width: "60px" }} src={logo} alt="logo-image" />
-        <p>ECOM</p>
-      </div>
+      </Link>
+      {/* <div className="nav-logo">
+        <img style={{ width: "60px" }} src={logo} alt="logo-image" />
+        <a href="">ECOM</a>
+      </div> */}
       <ul className="nav-links">
         <li
           onClick={() => {
