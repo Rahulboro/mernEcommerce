@@ -37,4 +37,9 @@
     border-radius: 2em;
     font-size: 20px;
     font-weight: 500;
+    border: none;
+}
+.shopcategory-showmore:hover{
+    cursor: pointer;
+    color: #fff;
 }
