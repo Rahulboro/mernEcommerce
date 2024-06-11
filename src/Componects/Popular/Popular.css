@@ -2,10 +2,20 @@
     background: #51829B;
     display: flex;
     flex-direction: column;
+    align-items: start;
+    padding-bottom: 30px;                        
+}
+.popular-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding-bottom: 30px;                            
-    overflow: auto;
-
+    flex-direction: column;
+}
+.container-popular-item{
+    display: flex;
+    width: 100vw;
+    overflow-x: auto;
 }
 .popular h1{
     color: #9BB0C1;
@@ -22,6 +32,5 @@
 .popular-item{
     margin-top: 50px;
     display: flex;
-    justify-content: space-around;
     gap: 20px;
 }

@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./Componects/Navbar/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Shop from "./Pages/Shop";
+import Home from "./Pages/Home";
 import ShopCategory from "./Pages/ShopCategory";
 import Product from "./Pages/Product";
 import LoginSignUp from "./Pages/LoginSignUp";
@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Shop />}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route
             path="/mens"
             element={<ShopCategory banner={men_banner} category="men" />}
