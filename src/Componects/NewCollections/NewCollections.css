@@ -22,7 +22,11 @@
 } 
 .collections {
     gap: 10px;
-    padding:20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    /* display: grid; */
+    flex-wrap: wrap;
+    /* grid-row: auto; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;  */
 }
