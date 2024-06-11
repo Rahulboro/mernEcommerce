@@ -1,9 +1,24 @@
 .relatedproduct{
+    background: #51829B;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    height: 90vh;
+    padding-bottom: 50px;
+    
+}
+.relatedproduct-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.relatedproduct-item-container{
+    display: flex;
+    width: 100vw;
+    overflow-x: auto;
+
 }
 .relatedproduct h1{
     font-size: 45px;
@@ -15,6 +30,7 @@
     height: 6px;
     border-radius: 1em;
     background: #252525;
+    border: none;
 }
 .relatedproduct-item{
     margin-top: 40px;
