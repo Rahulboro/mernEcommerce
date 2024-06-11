@@ -9,15 +9,15 @@ const Popular = () => {
       <h1>Popular In Men</h1>
       <hr />
       <div className="popular-item">
-        {product_Data.map((item, i) => {
+        {product_Data.map((itemPara, i) => {
           return (
             <Item
               key={i}
-              id={item.id}
-              name={item.name}
-              image={item.image}
-              price_new={item.new_price}
-              price_old={item.old_price}
+              id={itemPara.id}
+              name={itemPara.name}
+              image={itemPara.image}
+              price_new={itemPara.new_price}
+              price_old={itemPara.old_price}
             />
           );
         })}

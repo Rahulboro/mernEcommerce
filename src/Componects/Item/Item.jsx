@@ -8,7 +8,7 @@ const Item = (props) => {
         <img
           to={`/product/${props.id}`}
           src={props.image}
-          style={{ width: "300px" }}
+          style={{ width: "330px" }}
           alt=""
         />
       </a>
