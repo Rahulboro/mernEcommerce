@@ -4,7 +4,7 @@ import New_Collection_Data from "../assets/new_collection";
 import Item from "../Item/Item";
 const NewCollections = () => {
   return (
-    <div className="New-collections">
+    <div className="new-collections">
       <h1>NEW COLLECTIONS</h1>
       <hr />
       <div className="collections">

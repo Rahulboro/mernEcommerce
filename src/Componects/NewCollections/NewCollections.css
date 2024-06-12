@@ -1,4 +1,4 @@
-.New-collections{
+.new-collections{
     background: #51829B;       
     display: flex;       
     flex-direction: column;
@@ -6,12 +6,12 @@
     align-items: center;
     margin-bottom: 40px;
 }
-.New-collections h1{
+.new-collections h1{
     color: #9BB0C1;
     font-size: 50px;
     font-weight: 600;
 }
-.New-collections hr{
+.new-collections hr{
     background: #000;
     display: flex;
     width: 200px;
@@ -22,7 +22,8 @@
 } 
 .collections {
     gap: 10px;
-    padding:10px;
+    padding:5px;
+    background: #000;
     display: flex;
     justify-content: center;
     /* display: grid; */

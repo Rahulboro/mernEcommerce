@@ -258,7 +258,7 @@ let all_product = [
   },
   {
     id: 28,
-    name: "black bra  ",
+    name: "black bra",
     category: "women",
     image: pic_28,
     new_price: 799,
