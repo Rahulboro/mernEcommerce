@@ -1,8 +1,12 @@
 .product-display{
     display: flex;
+    height: auto;
+    background: #ddc8c8;
 }
 .productdisplay-left{
     display:flex;
+    justify-content: center;
+    align-items: center;
     gap:20px;
 }
 .productdisplay-image-list{
@@ -22,7 +26,7 @@
 }
 
 .productdisplay-right{
-    margin: 0px  60px;
+    padding: 0px  60px;
     display: flex;
     flex-direction: column;
 }
