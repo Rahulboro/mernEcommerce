@@ -8,7 +8,7 @@ import LoginSignUp from "./Pages/LoginSignUp";
 import Cart from "./Pages/Cart";
 import Footer from "./Componects/Footer/Footer";
 import men_banner from "./Componects/assets/banner/menbanner.png";
-import womens_banner from "./Componects/assets/banner/womenbanner.png";
+import womens_banner from "./Componects/assets/banner/women1600.png";
 import kids_banner from "./Componects/assets/banner/kidsbanner.png";
 
 function App() {
